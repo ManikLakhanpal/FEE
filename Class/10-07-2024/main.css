@@ -1,0 +1,71 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+    background-image: url(./img/Chitkara_University_pic.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.box {
+    height: 22px;
+}
+
+nav {
+    display: flex;
+    height: 6px;
+    width: 100%;
+    justify-content:right;
+    background-color: #ed3237;
+}
+
+img {
+    height: max-content;
+    cursor: pointer;
+}
+
+div {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+form {
+    border: 3px solid rgb(121, 121, 121);
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    margin-right: 18%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+label {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+button {
+    margin-top: 1rem;
+    border: 0px;
+    background-color: #c01a1f;
+    padding: 0.8rem;
+    color: white;
+}
+
+a {
+    font-size: 12px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #2e5b87;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
