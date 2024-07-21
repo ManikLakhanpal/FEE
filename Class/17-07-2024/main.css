@@ -1,0 +1,52 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: aqua;
+}
+
+main {
+    margin: 1%;
+    border: 1px solid black;
+    height: 350px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow:auto
+}
+
+div {
+    height: 100px;
+    width: 160px;
+    border: 3px solid black;
+    text-align: center;
+}
+
+.red {
+    background-color: red;
+    color: white;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.indigo {
+    background-color: indigo;
+}
+
+.violet {
+    background-color: violet;
+}

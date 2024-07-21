@@ -1,0 +1,30 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    padding: .5rem 8rem;
+    height: 5vh;
+}
+
+.bar {
+    display: flex;
+    border: 1px solid red;
+    width: 40%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logoParent {
+    width: 60%;
+}
+
+.zerodhaLogo {
+    width: 200px;
+}
