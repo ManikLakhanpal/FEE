@@ -1,0 +1,114 @@
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: "Poppins", sans-serif;
+}
+.navbar {
+  background-color: transparent;
+  transition: background-color 0.5s ease;
+}
+.navbar.scrolled {
+  background-color: #1f1f1f;
+}
+.navbar-brand,
+.nav-link {
+  color: #e0e0e0 !important;
+}
+.nav-link {
+  position: relative;
+  transition: color 0.3s;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #e0e0e0;
+  bottom: -5px;
+  left: 50%;
+  transition: all 0.3s ease-in-out;
+}
+.nav-link:hover::after {
+  width: 100%;
+  left: 0;
+}
+header {
+  background: linear-gradient(135deg, #1a1a1a, #000000);
+  padding: 120px 0;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+header h1 {
+  font-size: 3rem;
+  z-index: 2;
+  position: relative;
+}
+header p {
+  font-size: 1.5rem;
+  z-index: 2;
+  position: relative;
+}
+header .btn {
+  z-index: 2;
+  position: relative;
+  border-radius: 50px;
+  background-color: #ff6f61;
+  color: #ffffff;
+  padding: 10px 30px;
+  font-weight: bold;
+  transition: transform 0.3s;
+}
+header .btn:hover {
+  transform: scale(1.1);
+}
+.product-section {
+  padding: 60px 0;
+}
+.product-card {
+  background-color: #1f1f1f;
+  border: none;
+  color: white;
+  border-radius: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+.product-card img {
+  border-radius: 15px 15px 0 0;
+}
+.product-card .card-body {
+  padding: 20px;
+  text-align: center;
+}
+.product-card .btn {
+  background-color: #ff6f61;
+  border: none;
+  border-radius: 50px;
+  color: #ffffff;
+  transition: background-color 0.3s;
+}
+.product-card .btn:hover {
+  background-color: #ff4a4a;
+}
+footer {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  padding: 30px 0;
+  text-align: center;
+}
+footer p {
+  margin: 0;
+}
