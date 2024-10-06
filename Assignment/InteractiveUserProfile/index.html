@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css" />
+    <title>User Profile</title>
+</head>
+
+<body>
+    <div class="userProfile">
+        <img id="profilePictureDisplay" src="./assets/profile.png">
+        <h2 id="usernameDisplay">User name</h1>
+            <p id="bioDisplay" class="userBio">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus laborum cum quidem impedit
+                praesentium laboriosam commodi sunt voluptatibus voluptas magni omnis voluptate enim amet neque,
+                reiciendis dolorem beatae itaque quas?
+            </p>
+    </div>
+
+    <form>
+        <label for="username">Username</label>
+        <input id="username" type="text" placeholder="Your name" />
+        <br />
+
+        <label for="bio">Bio</label>
+        <textarea id="bio" type="text" placeholder="Your name" />
+        </textarea>
+        <br />
+
+        <label for="profilePicture">Profile Picture</label>
+        <input id="profilePicture" type="url" placeholder="Image URL" />
+        <br />
+
+        <button id="done">Done</button>
+    </form>
+    <script src="./app.js"></script>
+</body>
+
+</html>
